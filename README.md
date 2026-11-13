@@ -2,7 +2,7 @@
 
 A single-file, self-contained portfolio site — no build step, no dependencies to install. Open `index.html` and it works.
 
-**Live site:** _add your URL here once deployed (see [Deploy](#deploy) below)_
+**Live site:** _add the verified deployment URL here once deployed (see [Deploy](#deploy) below)_
 
 ---
 
@@ -30,6 +30,25 @@ Plain HTML, CSS, and vanilla JavaScript — no framework, no bundler.
 - **Interactivity:** `IntersectionObserver` for scroll-reveal and nav-spy, no other JS dependencies
 - Fully responsive (mobile hamburger nav, single-column stacking below 860px), respects `prefers-reduced-motion`, and degrades gracefully with JavaScript disabled (`<noscript>` fallback keeps content visible)
 
+## Source repositories
+
+The project cards on the site should link directly to their code repositories. These are the current repository destinations:
+
+| Project | Source |
+|---|---|
+| EcoRoute AI — component-aware, uncertainty-gated waste routing | [GitHub repository](https://github.com/Ashwani899/EcoRoute-AI-Component-Aware-Uncertainty-Gated-Waste-Routing-System) |
+| ResumeForge AI — full-stack resume analysis and tailoring | [GitHub repository](https://github.com/Ashwani899/resumeforge-ai) |
+| AI Study Assistant — document-based study tools | [GitHub repository](https://github.com/Ashwani899/ai-study-assistant) |
+| Jenkins Remoting Lab — distributed agents and security notes | [GitHub repository](https://github.com/Ashwani899/Jenkins-Remoting-Project) |
+| Azure CI/CD Pipeline — container build and deployment pipeline | [GitHub repository](https://github.com/Ashwani899/Azure-CI-CD-pipeline-from-scratch) |
+| Docker Web Server — Nginx containerization | [GitHub repository](https://github.com/Ashwani899/Docker-webserver-project) |
+| Orbit Telemetry — Java service and resilience prototype | [GitHub repository](https://github.com/Ashwani899/Java-Application-using-Gradle-) |
+| JPMC Midas Forage — Advanced Software Engineering virtual experience | [GitHub repository](https://github.com/Ashwani899/forage-midas) |
+| Techfest 3D — interactive Techfest 2026 experience | [GitHub repository](https://github.com/Ashwani899/Techfest-3D) |
+| Techfest Synthesis — interactive CA candidate experience | [GitHub repository](https://github.com/Ashwani899/Techfest-Synthesis) |
+
+Repository links point to source code, not necessarily live deployments. Keep live-demo links disabled until a working deployment URL has been verified.
+
 ## Deploy
 
 Any static host works since it's one file. Pick whichever's easiest:
@@ -46,28 +65,29 @@ Any static host works since it's one file. Pick whichever's easiest:
 ```bash
 # just open it directly
 open index.html        # macOS
-start index.html        # Windows
+start index.html       # Windows
 # or serve it
 python3 -m http.server 8000
 ```
 
 ## Customizing
 
-Everything lives in one file, organized top to bottom in the order sections appear on the page.
+Everything lives in one file, organized top to bottom in the order sections appear.
 
-- **Photo / résumé PDF** — both are base64 data URIs (`src="data:image/jpeg;base64,..."` and `href="data:application/pdf;base64,..."`). Replace by re-encoding a new file (`base64 -i yourfile.jpg`) and swapping the string, or ask Claude to regenerate the page with new files.
+- **Photo / résumé PDF** — both are base64 data URIs (`src="data:image/jpeg;base64,... "` and `href="data:application/pdf;base64,... "`). Replace by re-encoding a new file and swapping the string.
 - **Colors / type** — all design tokens are CSS custom properties at the top of the `<style>` block (`:root { --bg, --ink, --indigo, --amber, ... }`). Change once, applies everywhere.
 - **Projects** — each project is one `<article class="project-card">` block under `#projects`. Tab content lives in `.tabs__panel` divs right below the tab buttons.
-- **Live demo links** — currently shown as "Coming soon" (disabled) for all four projects since none are deployed yet. Once a project is live, swap the `<span class="btn btn--disabled">` for an `<a>` tag with the real URL.
-- **Screenshots** — the project preview boxes (`.mockup__stage`) currently hold illustrative placeholder SVGs, clearly labeled "Preview mockup." Replace with `<img src="your-screenshot.png" alt="...">` once real screenshots exist.
-- **GitHub Stats username** — search `username=Ashwani899` and replace if this ever needs to point elsewhere.
+- **Live demo links** — keep “Coming soon” or disabled until the project is actually deployed.
+- **Screenshots** — replace illustrative mockups with genuine screenshots and useful alt text when available.
+- **GitHub Stats username** — the stats section currently targets `Ashwani899`.
 
 ## Known TODOs
 
-- [ ] Deploy ResumeForge AI and AI Study Assistant, then swap their "Coming soon" buttons for real live-demo links
-- [ ] Replace the two placeholder project mockups with real screenshots once deployed
-- [ ] Enable GitHub Pages on the `Techfest-3D` and `Techfest-Synthesis` repos (both already have `index.html` at the root — it's a one-click Settings change) and link them as live demos too
-- [ ] Update the "Open to Fall '26 roles" status pill in the nav as availability changes
+- [ ] Deploy ResumeForge AI and AI Study Assistant, then replace their disabled demo links with verified URLs
+- [ ] Replace placeholder project mockups with real screenshots once deployed
+- [ ] Enable GitHub Pages on the Techfest projects only if their pages are intended to be public demos
+- [ ] Update time-sensitive availability wording in the navigation as it changes
+- [ ] Confirm each project card links to the matching source repository in the table above
 
 ## Browser support
 
