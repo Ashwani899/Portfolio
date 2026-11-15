@@ -2,7 +2,7 @@
 
 A self-contained static portfolio site. The main experience is in `index.html`; the page uses embedded assets and vanilla HTML, CSS, and JavaScript, so there is no package install or frontend build step.
 
-**Live site:** GitHub Pages is enabled. The latest successful Pages build/deploy run visible during this audit was on **November 13, 2026** ([workflow run](https://github.com/Ashwani899/Portfolio/actions/runs/43478071637)). The portfolio source was updated again on **November 15, 2026**, and no newer Pages run was visible at audit time. Deployment of the latest source is therefore **unverified**; check **Settings → Pages** for the canonical URL and confirm that it reflects the current `main` branch.
+**Live site:** GitHub Pages is enabled. The latest successful Pages build/deploy run visible during this audit was on **November 13, 2026** ([workflow run](https://github.com/Ashwani899/Portfolio/actions/runs/43478071637)). That run used commit `e219def`, which is also the current `main` commit at audit time. The public URL was not independently reachable from this audit environment; check **Settings → Pages** for the canonical URL.
 
 ## Site sections
 
