@@ -34,6 +34,22 @@ I enjoy moving between product-focused engineering and deeper technical question
 - **JPMorgan Chase & Co. Advanced Software Engineering Virtual Experience** — Forage learning programme; associated Midas exercise repository linked above.
 - **Aspire Leaders Program** — six-week programme, October 21–December 1, 2026 (in progress as of November 2026).
 
+## Selected credentials and virtual experiences
+
+- [Google AI Essentials Specialization](https://www.coursera.org/account/accomplishments/specialization/0BCOB6OO7C6Q) — Google / Coursera
+- [AI-Machine Learning Engineer](https://rfskillingacademy.com/certificate/group/492/517436) — NSDC / Reliance Foundation
+- [Getting Started with AI on Jetson Nano](https://learn.nvidia.com/certificates?id=S7jxDcoVQim55-hBZBbGGA) — NVIDIA
+- [AI Skills Fest 2026](https://www.credly.com/badges/95556f3c-a5e1-4348-ab9c-9efe9cfe64d4/linked_in_profile) — Microsoft
+- [MongoDB Core Concepts & Architecture](https://www.credly.com/badges/26019d12-d797-4466-b54c-5a70a036e590/linked_in_profile) — MongoDB
+- [Introduction to Data Science](https://www.credly.com/badges/3466ddc9-cc05-4f72-b4b0-a9bb9d664bac/linked_in_profile) — Cisco Networking Academy
+- [Cybersecurity Fundamentals](https://www.credly.com/badges/38293ba5-d288-43ca-b036-373054792379/linked_in_profile) — IBM
+- [App Dev Environment on Google Cloud](https://www.credly.com/badges/b9a56be4-b9b4-4238-91ce-a62e16be969a/linked_in_profile) — Google Cloud
+- [GenAI-Powered Data Analytics](https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_6a2bf6406a2bc24ed3d54d41_1781678580280_completion_certificate.pdf) — Tata Group (Tata iQ), Forage
+- [Software Engineering Job Simulation](https://www.theforage.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_6a2bf6406a2bc24ed3d54d41_1781616087940_completion_certificate.pdf) — JPMorgan Chase, Forage
+- [Data Analytics Job Simulation](https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_6a2bf6406a2bc24ed3d54d41_1781438402253_completion_certificate.pdf) — Deloitte Australia, Forage
+- [Professional Networking for Career Growth](https://www.life-global.org/certificate/7b8e0329-35d7-4edc-8674-218abff12b97) — HP LIFE
+- [Digital Marketing Certified](https://app-na2.hubspot.com/academy/achievements/0q7n5mmr/en/1/ashwani-singhal-251030042/digital-marketing-certified) — HubSpot Academy
+
 ## Technology
 
 **Languages:** Python, Java, C, C++, JavaScript, TypeScript  
