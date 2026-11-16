@@ -1,61 +1,74 @@
 # Ashwani Singhal — Portfolio
 
-A self-contained static portfolio site. The main experience is in `index.html`; the page uses embedded assets and vanilla HTML, CSS, and JavaScript, so there is no package install or frontend build step.
-
-**Live site:** GitHub Pages is enabled. The latest successful Pages build/deploy run visible during this audit was on **November 13, 2026** ([workflow run](https://github.com/Ashwani899/Portfolio/actions/runs/43478071637)). That run used commit `e219def`, which is also the current `main` commit at audit time. The public URL was not independently reachable from this audit environment; check **Settings → Pages** for the canonical URL.
+A responsive, single-file portfolio site built with HTML, CSS, and vanilla JavaScript. The main experience lives in `index.html`; no package installation or frontend build step is required.
 
 ## Site sections
 
-- **About:** profile, education, and current focus.
-- **Selected Builds:** ten project cards with technology summaries and direct repository links.
-- **Skills:** grouped technical areas.
-- **Certifications:** verification links for listed credentials.
-- **Leadership & Campus Engagement:** GeeksforGeeks Campus Mantri, Techfest IIT Bombay, and Aspire Leaders Program.
-- **Résumé:** embedded one-page résumé preview and download.
-- **Contact:** email and social links.
-
-The page also includes a GitHub-focused link/summary section. External widgets and fonts depend on their providers being reachable; the core portfolio content is static.
+- **About:** Computer Science undergraduate profile, education, and areas of interest.
+- **Selected Builds:** public AI applications, EcoRoute AI, DevOps engineering projects, the Forage Midas exercise, and Techfest web experiences.
+- **CONTROL-X:** a high-level public summary of an ongoing research project. The repository, baselines, preregistered settings, experimental data, and unpublished findings remain private and are not included here.
+- **GitHub:** profile and live GitHub summary widgets from a third-party stats service.
+- **Skills & Tools:** technologies represented in public repositories and engineering work.
+- **Certifications:** credential cards retaining their existing verification URLs.
+- **Experience & Programmes:** CodeAlpha, the AI for Sustainability Virtual Internship, GeeksforGeeks Campus Mantri, Techfest Campus Ambassador, and Aspire Leaders Program.
+- **Résumé:** the previously embedded August 2026 PDF has been retired; this site does not currently publish a résumé PDF.
+- **Contact:** GitHub, LinkedIn, LeetCode, and email.
 
 ## Built with
 
-- Plain HTML, CSS, and vanilla JavaScript.
+- Plain HTML, CSS custom properties, and vanilla JavaScript.
 - Space Grotesk, IBM Plex Sans, and IBM Plex Mono via Google Fonts.
 - `IntersectionObserver` for scroll reveal and navigation state.
-- Responsive layouts and `prefers-reduced-motion` support.
+- Responsive layouts, keyboard-visible focus styles, and reduced-motion support.
+- A dark monochrome visual theme.
 
-## Source repositories
+## Featured public repositories
 
-| Project | Source |
+| Project | Repository |
 |---|---|
-| EcoRoute AI — component-aware, uncertainty-gated waste routing | [GitHub repository](https://github.com/Ashwani899/EcoRoute-AI-Component-Aware-Uncertainty-Gated-Waste-Routing-System) |
-| ResumeForge AI — full-stack résumé analysis and tailoring | [GitHub repository](https://github.com/Ashwani899/resumeforge-ai) |
-| AI Study Assistant — document-based study tools | [GitHub repository](https://github.com/Ashwani899/ai-study-assistant) |
-| Jenkins Remoting Lab — distributed agents and security notes | [GitHub repository](https://github.com/Ashwani899/Jenkins-Remoting-Project) |
-| Azure CI/CD Pipeline — container build and staged Azure deployment definition | [GitHub repository](https://github.com/Ashwani899/Azure-CI-CD-pipeline-from-scratch) |
-| Docker Web Server — Nginx containerization | [GitHub repository](https://github.com/Ashwani899/Docker-webserver-project) |
-| Orbit Telemetry — Java service and resilience prototype | [GitHub repository](https://github.com/Ashwani899/Java-Application-using-Gradle-) |
-| JPMC Midas — Forage virtual-experience exercise | [GitHub repository](https://github.com/Ashwani899/forage-midas/tree/flow) |
-| Techfest 3D — interactive event-site experience | [GitHub repository](https://github.com/Ashwani899/Techfest-3D) |
-| Techfest Synthesis — interactive candidate experience | [GitHub repository](https://github.com/Ashwani899/Techfest-Synthesis) |
+| EcoRoute AI — uncertainty-aware waste-routing prototype | [GitHub](https://github.com/Ashwani899/EcoRoute-AI-Component-Aware-Uncertainty-Gated-Waste-Routing-System) |
+| ResumeForge AI — full-stack resume analysis | [GitHub](https://github.com/Ashwani899/resumeforge-ai) |
+| AI Study Assistant — document-based study tools | [GitHub](https://github.com/Ashwani899/ai-study-assistant) |
+| Jenkins Remoting Lab — distributed agent learning lab | [GitHub](https://github.com/Ashwani899/Jenkins-Remoting-Project) |
+| Azure CI/CD Pipeline — Flask/Docker application and Azure Pipelines definition | [GitHub](https://github.com/Ashwani899/Azure-CI-CD-pipeline-from-scratch) |
+| Docker Web Server — Nginx containerization | [GitHub](https://github.com/Ashwani899/Docker-webserver-project) |
+| Orbit Telemetry — Java service and observability prototype | [GitHub](https://github.com/Ashwani899/Java-Application-using-Gradle-) |
+| JPMC Midas — Forage learning exercise | [GitHub](https://github.com/Ashwani899/forage-midas/tree/flow) |
+| Techfest 3D — interactive event-site experience | [GitHub](https://github.com/Ashwani899/Techfest-3D) |
+| Techfest Synthesis — interactive candidate experience | [GitHub](https://github.com/Ashwani899/Techfest-Synthesis) |
 
-The JPMC Midas repository is a learner fork associated with the Forage virtual experience; it is not JPMorgan Chase production software or employment evidence. Azure CI/CD contains an Azure Pipelines definition, but no live Azure deployment is claimed.
+**Accuracy notes**
 
-## Experience and programmes shown
-
-The site lists the CodeAlpha internship, the AI for Sustainability Virtual Internship with 1M1B / AICTE / IBM SkillsBuild (remote, July–September 2026), and the six-week Aspire Leaders Program (October 21–December 1, 2026). Review dates and programme wording before future updates.
+- The JPMC Midas repository is a learner exercise associated with the JPMorgan Chase & Co. Advanced Software Engineering Virtual Experience on Forage. It is not JPMorgan Chase production software or employment.
+- The Azure repository includes an Azure Pipelines delivery definition. A successful GitHub Actions workflow does not establish that an Azure deployment has run; live deployment requires configured Azure resources and service connections.
+- The Jenkins repository is a learning lab/configuration reference, not a production Jenkins deployment.
+- CONTROL-X is ongoing private research. The public summary deliberately does not disclose private code, experimental results, or scientific findings.
 
 ## Local preview
 
-Open `index.html` directly in a browser. No build tooling is required.
+Open `index.html` directly in a modern browser. For a local HTTP server:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
 
 ## GitHub profile README
 
-`GITHUB_PROFILE_README_DRAFT.md` is a draft only; it is not the active GitHub profile README. GitHub displays a profile README only when a public repository named exactly `Ashwani899` exists and contains a root `README.md`. That profile repository was not present during this audit.
+`GITHUB_PROFILE_README_DRAFT.md` contains the revised profile README draft, including project links and the credential verification URLs retained from the portfolio. It is not yet the active profile README.
 
-## Deployment status
+GitHub displays a profile README when a **public repository named exactly `Ashwani899`** contains a root `README.md`. That repository did not exist in the accessible account during this update. Once it is created, copy the draft into its root `README.md`.
 
-The repository has GitHub Pages enabled. The latest Pages build and deploy workflow succeeded, but this audit could not independently fetch the public site URL. Check **Settings → Pages** and the [Actions history](https://github.com/Ashwani899/Portfolio/actions) for the current canonical URL and deployment result.
+## Deployment and verification
 
-## Privacy and maintenance
+The main branch had a previously successful GitHub Pages deployment recorded on November 13, 2026. This branch contains newer unmerged changes; those changes are not part of the public deployment unless the pull request is reviewed, merged, and a subsequent Pages workflow succeeds.
 
-The page intentionally exposes the contact links and résumé content embedded in `index.html`. Review the public résumé and contact details before each release. External certificate pages were present as links in the HTML, but their destination pages could not all be independently verified from this audit environment.
+The canonical Pages URL was not independently confirmed during this update. Check **Settings → Pages** and the [Actions history](https://github.com/Ashwani899/Portfolio/actions) for the current deployment status.
+
+## Maintenance
+
+- Keep demo links disabled until a working deployment URL has been verified.
+- Refresh certificate details from their issuing platforms before making new credential claims.
+- Replace the retired résumé placeholder only after adding a current, reviewed PDF.
+- Avoid publishing private research artifacts or unverified performance metrics.
