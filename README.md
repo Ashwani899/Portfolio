@@ -1,98 +1,75 @@
-# Ashwani Singhal — Portfolio
+# Ashwani Singhal - Portfolio
 
-A single-file, self-contained portfolio site — no build step, no dependencies to install. Open `index.html` and it works.
+A responsive single-page portfolio built with semantic HTML, CSS custom properties, and vanilla JavaScript. The main experience lives in `index.html`; no frontend package installation or bundler is required.
 
-**Live site:** _add the verified deployment URL here once deployed (see [Deploy](#deploy) below)_
+## Portfolio sections
 
----
+- **Profile and About:** Computer Science undergraduate at JUIT (2025-2029), technical interests, and current focus.
+- **Selected Builds:** CONTROL-X (private research summary), ResumeForge AI, AI Study Assistant, EcoRoute AI, Jenkins Remoting, Azure CI/CD, Docker Web Server, Orbit Telemetry, JPMC Midas (Forage), and Techfest web experiences.
+- **Architecture visuals:** source-grounded engineering flow diagrams for ResumeForge AI, AI Study Assistant, and the high-level CONTROL-X evaluation loop. These are diagrams, not fabricated product screenshots.
+- **GitHub Profile & Activity:** GitHub avatar, public profile-statistics cards, language distribution, and a third-party contribution-calendar visualisation.
+- **Skills & Tools:** grouped technologies represented in public project repositories and learning work.
+- **Certifications:** existing verification links retained in the HTML.
+- **Experience & Programmes:** CodeAlpha, 1M1B/AICTE/IBM SkillsBuild, GeeksforGeeks, Techfest, and Aspire Institute.
+- **Résumé:** embedded previews and downloadable one-page PDFs for Software Engineering and AI/ML roles.
+- **Contact:** GitHub, LinkedIn, LeetCode, and email.
 
-## What's inside
+## Résumé downloads
 
-One HTML file with everything embedded — profile photo and résumé PDF are both inlined as base64, so there's nothing else to host or link.
+- [Software Engineering résumé (PDF)](assets/Ashwani_Singhal_Software_Engineering_Resume_2026.pdf)
+- [AI/ML Engineering résumé (PDF)](assets/Ashwani_Singhal_AI_ML_Resume_2026.pdf)
 
-| Section | What it shows |
-|---|---|
-| **About** | Bio, education, and quick-fact stats (students reached, registrations driven, apps shipped, certifications) |
-| **Projects** | ResumeForge AI and AI Study Assistant in full detail — live demo / code links, tech stack, an architecture pipeline diagram, challenges, and a roadmap, each behind tabs. Plus lighter cards for the two Techfest sites. |
-| **GitHub Stats** | Live cards from the GitHub API (stars, commits, top languages) — no manual updating needed |
-| **Skills** | Grouped badge pills: languages, AI/LLM tooling, frontend & backend, cloud & DevOps, practices |
-| **Certifications** | Grouped by category, each card linking to the real verification page |
-| **Leadership** | GeeksforGeeks Campus Mantri + Techfest, IIT Bombay Ambassador roles |
-| **Resume** | Thumbnail preview + one-click PDF download (embedded, works offline) |
-| **Contact** | Email with copy-to-clipboard, social links |
+Both PDFs are A4, one page, and use role-specific summaries and project ordering. The CONTROL-X description is explicitly scoped as ongoing private research; it does not claim confirmatory effectiveness results or a certified false-positive estimate.
 
 ## Built with
 
-Plain HTML, CSS, and vanilla JavaScript — no framework, no bundler.
+- HTML5, CSS, and vanilla JavaScript.
+- Space Grotesk, IBM Plex Sans, and IBM Plex Mono via Google Fonts.
+- `IntersectionObserver` for scroll reveal and navigation state.
+- Responsive CSS layouts, keyboard-visible focus styles, and reduced-motion support.
+- Inline engineering flow diagrams and native browser PDF previews.
 
-- **Fonts:** Space Grotesk (display), IBM Plex Sans (body), IBM Plex Mono (labels/data) via Google Fonts
-- **Live data:** [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) for the GitHub Stats section
-- **Interactivity:** `IntersectionObserver` for scroll-reveal and nav-spy, no other JS dependencies
-- Fully responsive (mobile hamburger nav, single-column stacking below 860px), respects `prefers-reduced-motion`, and degrades gracefully with JavaScript disabled (`<noscript>` fallback keeps content visible)
+## Selected public repositories
 
-## Source repositories
-
-The project cards on the site should link directly to their code repositories. These are the current repository destinations:
-
-| Project | Source |
+| Project | Repository |
 |---|---|
-| EcoRoute AI — component-aware, uncertainty-gated waste routing | [GitHub repository](https://github.com/Ashwani899/EcoRoute-AI-Component-Aware-Uncertainty-Gated-Waste-Routing-System) |
-| ResumeForge AI — full-stack resume analysis and tailoring | [GitHub repository](https://github.com/Ashwani899/resumeforge-ai) |
-| AI Study Assistant — document-based study tools | [GitHub repository](https://github.com/Ashwani899/ai-study-assistant) |
-| Jenkins Remoting Lab — distributed agents and security notes | [GitHub repository](https://github.com/Ashwani899/Jenkins-Remoting-Project) |
-| Azure CI/CD Pipeline — container build and deployment pipeline | [GitHub repository](https://github.com/Ashwani899/Azure-CI-CD-pipeline-from-scratch) |
-| Docker Web Server — Nginx containerization | [GitHub repository](https://github.com/Ashwani899/Docker-webserver-project) |
-| Orbit Telemetry — Java service and resilience prototype | [GitHub repository](https://github.com/Ashwani899/Java-Application-using-Gradle-) |
-| JPMC Midas Forage — Advanced Software Engineering virtual experience | [GitHub repository](https://github.com/Ashwani899/forage-midas) |
-| Techfest 3D — interactive Techfest 2026 experience | [GitHub repository](https://github.com/Ashwani899/Techfest-3D) |
-| Techfest Synthesis — interactive CA candidate experience | [GitHub repository](https://github.com/Ashwani899/Techfest-Synthesis) |
+| EcoRoute AI - uncertainty-aware waste-routing prototype | [GitHub](https://github.com/Ashwani899/EcoRoute-AI-Component-Aware-Uncertainty-Gated-Waste-Routing-System) |
+| ResumeForge AI - deterministic resume analysis and tailoring | [GitHub](https://github.com/Ashwani899/resumeforge-ai) |
+| AI Study Assistant - document-grounded learning workflows | [GitHub](https://github.com/Ashwani899/ai-study-assistant) |
+| Jenkins Remoting Lab - distributed agent learning lab | [GitHub](https://github.com/Ashwani899/Jenkins-Remoting-Project) |
+| Azure CI/CD Pipeline - Flask/Docker application and Azure Pipelines definition | [GitHub](https://github.com/Ashwani899/Azure-CI-CD-pipeline-from-scratch) |
+| Docker Web Server - Nginx containerization | [GitHub](https://github.com/Ashwani899/Docker-webserver-project) |
+| Orbit Telemetry - Java service and observability prototype | [GitHub](https://github.com/Ashwani899/Java-Application-using-Gradle-) |
+| JPMC Midas - Forage virtual-experience exercise | [GitHub](https://github.com/Ashwani899/forage-midas/tree/flow) |
+| Techfest 3D - interactive event-site experience | [GitHub](https://github.com/Ashwani899/Techfest-3D) |
+| Techfest Synthesis - interactive candidate experience | [GitHub](https://github.com/Ashwani899/Techfest-Synthesis) |
 
-Repository links point to source code, not necessarily live deployments. Keep live-demo links disabled until a working deployment URL has been verified.
+**Accuracy notes**
 
-## Deploy
+- CONTROL-X is an ongoing private research project. The public summary intentionally omits private code, frozen baselines, preregistered settings, experimental data, and unpublished findings.
+- The Azure repository contains an Azure Pipelines definition. GitHub Actions validation does not establish a successful live Azure deployment; that requires configured Azure resources and service connections.
+- The Jenkins repository is a learning lab and configuration reference, not a production Jenkins service.
+- JPMC Midas is a learner exercise associated with the JPMorgan Chase & Co. Advanced Software Engineering virtual experience on Forage; it is not JPMorgan Chase production software or employment.
+- GitHub statistics and the contribution calendar are third-party visualisations and may be cached or unavailable. GitHub itself is authoritative for contribution attribution and account activity.
 
-Any static host works since it's one file. Pick whichever's easiest:
+## Local preview
 
-**GitHub Pages**
-1. Create a repo (e.g. `portfolio` or `<your-username>.github.io`)
-2. Add this `index.html` to the root and push
-3. Repo → Settings → Pages → deploy from the `main` branch → done
+Open `index.html` directly in a modern browser, or start a local server:
 
-**Vercel / Netlify**
-- Drag the `index.html` file onto [vercel.com/new](https://vercel.com/new) or [app.netlify.com/drop](https://app.netlify.com/drop) — no config needed
-
-**Local preview**
 ```bash
-# just open it directly
-open index.html        # macOS
-start index.html       # Windows
-# or serve it
-python3 -m http.server 8000
+python -m http.server 8000
 ```
 
-## Customizing
+Then open `http://localhost:8000`.
 
-Everything lives in one file, organized top to bottom in the order sections appear.
+## Validation
 
-- **Photo / résumé PDF** — both are base64 data URIs (`src="data:image/jpeg;base64,... "` and `href="data:application/pdf;base64,... "`). Replace by re-encoding a new file and swapping the string.
-- **Colors / type** — all design tokens are CSS custom properties at the top of the `<style>` block (`:root { --bg, --ink, --indigo, --amber, ... }`). Change once, applies everywhere.
-- **Projects** — each project is one `<article class="project-card">` block under `#projects`. Tab content lives in `.tabs__panel` divs right below the tab buttons.
-- **Live demo links** — keep “Coming soon” or disabled until the project is actually deployed.
-- **Screenshots** — replace illustrative mockups with genuine screenshots and useful alt text when available.
-- **GitHub Stats username** — the stats section currently targets `Ashwani899`.
+The `.github/workflows/portfolio-validation.yml` workflow runs `scripts/validate_portfolio.py` on pull requests and pushes. It checks internal anchors, duplicate IDs, placeholder copy, and the presence and one-page structure of both PDF résumés.
 
-## Known TODOs
+## GitHub profile README
 
-- [ ] Deploy ResumeForge AI and AI Study Assistant, then replace their disabled demo links with verified URLs
-- [ ] Replace placeholder project mockups with real screenshots once deployed
-- [ ] Enable GitHub Pages on the Techfest projects only if their pages are intended to be public demos
-- [ ] Update time-sensitive availability wording in the navigation as it changes
-- [ ] Confirm each project card links to the matching source repository in the table above
+`GITHUB_PROFILE_README_DRAFT.md` is the prepared profile README. GitHub displays it when a public repository named exactly `Ashwani899` contains a root `README.md`. That special repository still needs to be created and populated; this draft in the Portfolio repository does not itself appear on the profile page.
 
-## Browser support
+## Deployment
 
-Modern evergreen browsers (Chrome, Firefox, Safari, Edge). Uses CSS Grid, `backdrop-filter`, and `IntersectionObserver` — all standard since ~2017, no polyfills needed.
-
-## License
-
-© 2026 Ashwani Singhal. Feel free to fork the structure for your own portfolio — swap the content for yours.
+The changes in this branch are not live until the pull request is reviewed, merged, and the GitHub Pages deployment succeeds. Check [Actions](https://github.com/Ashwani899/Portfolio/actions) for the post-merge result and **Settings -> Pages** for the canonical URL.
